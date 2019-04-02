@@ -1,0 +1,102 @@
+/*clear default styles*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, q, samp
+blockquote, abbr, address, cite, code, del, dfn, em, img, ins, kbd, small, sub
+strong, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, footer, label,
+legend, table, caption, canvas, tbody, tfoot, thead, th, td, article, aside, 
+details, figcaption, figure, header, nav, menu, section, summary, time, mark,
+audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article, footer, header, aside, details, figcaption, figure, nav, menu, section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {content: ''; }
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/*general styles*/
+
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background: grey;
+    color: red;
+    font-family: 'Arial', 'Helvetica';
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4, h5, h6 {
+    font-size: 16px;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+header, footer, main {
+    width: 100%;
+}
+
+header {
+    padding: 50px 0 30px;
+    display: flex;
+    flex-grow: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li, footer ul li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
